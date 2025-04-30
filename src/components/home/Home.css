@@ -1,0 +1,163 @@
+/* Section d'accueil */
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 20px;
+    flex-wrap: wrap;
+    min-height: 90vh;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-text {
+    flex: 1;
+    max-width: 600px;
+    padding: 20px;
+  }
+  
+  .home-text h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .highlight {
+    background-color: #007bff;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 5px;
+  }
+  
+  .wave {
+    display: inline-block;
+    animation: wave 2s infinite;
+  }
+  
+  @keyframes wave {
+    0%, 60%, 100% { transform: rotate(0deg); }
+    10% { transform: rotate(14deg); }
+    20% { transform: rotate(-8deg); }
+    30% { transform: rotate(14deg); }
+    40% { transform: rotate(-4deg); }
+    50% { transform: rotate(10deg); }
+  }
+  
+  .home-text h1 {
+    font-size: 3rem;
+    color: #a259ff;
+    margin-bottom: 10px;
+  }
+  
+  .name {
+    color: #a259ff;
+  }
+  
+  .typewriter {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #fff;
+  }
+  
+  .home-img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    padding: 20px;
+  }
+  
+  .home-img img {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Typewriter text color by theme */
+  body.dark-mode .typewriter {
+    color: white;
+  }
+  
+  body:not(.dark-mode) .typewriter {
+    color: #333;
+  }
+  
+  /* Section introduction */
+  .introduction {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 20px;
+    background-color: transparent;
+    color: white;
+  }
+  
+  .intro-text {
+    flex: 1;
+    max-width: 600px;
+    padding: 20px;
+  }
+  
+  .intro-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .intro-text p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  /* Thème clair / sombre pour le texte */
+  body.dark-mode .intro-text h1,
+  body.dark-mode .intro-text p {
+    color: white;
+  }
+  
+  body:not(.dark-mode) .intro-text h1,
+  body:not(.dark-mode) .intro-text p {
+    color: #222;
+  }
+  
+  .intro-text em {
+    font-style: italic;
+    color: #c084fc;
+  }
+  
+  .intro-text strong {
+    font-weight: bold;
+    color: #a259ff;
+  }
+  
+  .intro-avatar {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .intro-avatar img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #a259ff;
+    padding: 10px;
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 768px) {
+    .home,
+    .introduction {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .home-img,
+    .intro-avatar {
+      justify-content: center;
+    }
+  
+    .intro-avatar img {
+      margin-top: 20px;
+    }
+  }
+  

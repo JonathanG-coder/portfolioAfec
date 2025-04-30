@@ -1,0 +1,35 @@
+.footer {
+  text-align: center;
+  padding: 20px 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode .footer {
+  background-color: #0b061f;
+  color: white;
+}
+
+body:not(.dark-mode) .footer {
+  background-color: #f2f2f2;
+  color: #111;
+}
+
+.footer p {
+  margin: 5px 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+  color: inherit;
+}
+
+.social-icons a:hover {
+  color: #00bcd4;
+}

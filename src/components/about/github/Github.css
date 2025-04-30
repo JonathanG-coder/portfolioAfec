@@ -1,0 +1,18 @@
+.github-section {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .github-title {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .purple {
+    color: #c084f5;
+  }
+  
+  body.dark-mode .github-calendar {
+    filter: brightness(1.2);
+  }
+  

@@ -1,0 +1,73 @@
+/* Styles pour la section CV */
+.resume-container {
+  padding: 40px 20px;
+  background-color: #f8f8f8;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Lorsque le mode sombre est activé */
+body.dark-mode .resume-container {
+  background-color: #121212;
+  color: white;
+}
+
+/* Section d'en-tête du CV */
+.resume-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.resume-header h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+body.dark-mode .resume-header h1 {
+  color: white;
+}
+
+.resume-header p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+body.dark-mode .resume-header p {
+  color: #aaa;
+}
+
+/* Affichage du PDF du CV */
+.resume-viewer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+/* Section de téléchargement du CV */
+.download-section {
+  text-align: center;
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 12px 20px;
+  font-size: 1.2rem;
+  background-color: #9d0df0;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+/* Changement de couleur au survol du bouton de téléchargement */
+.download-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Lorsque le mode sombre est activé */
+body.dark-mode .download-btn {
+  background-color: #9d0df0;
+}
+
+body.dark-mode .download-btn:hover {
+  background-color: #b147ee;
+}

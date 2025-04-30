@@ -1,0 +1,22 @@
+.tech-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px 0;
+  }
+  
+  .tech-icon {
+    font-size: 3rem;
+    color: #6c63ff;
+    transition: transform 0.2s;
+  }
+  
+  .tech-icon:hover {
+    transform: scale(1.2);
+  }
+  
+  body.dark-mode .tech-icon {
+    color: #c084f5;
+  }
+  

@@ -1,0 +1,22 @@
+.tool-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px 0;
+  }
+  
+  .tool-icon {
+    font-size: 3rem;
+    color: #007bff;
+    transition: transform 0.2s;
+  }
+  
+  .tool-icon:hover {
+    transform: scale(1.2);
+  }
+  
+  body.dark-mode .tool-icon {
+    color: #66b2ff;
+  }
+  
