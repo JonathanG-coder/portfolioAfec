@@ -1,5 +1,4 @@
 import React from "react";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,

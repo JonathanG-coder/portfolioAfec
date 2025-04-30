@@ -1,8 +1,8 @@
 import React from "react";
-import './Resume.css'; // Importer le fichier CSS pour cette section
+import './Resume.css'; 
 
-// Importer le PDF de ton CV
-import pdf from '../../assets/CV_Jonathan_GAGER.pdf'; // Change le chemin si nécessaire
+
+import pdf from '../../assets/CV_Jonathan_GAGER.pdf';
 
 export default function Resume() {
   return (
@@ -16,7 +16,7 @@ export default function Resume() {
       {/* Section d'affichage du PDF */}
       <section className="resume-viewer">
         <object
-          data={pdf} // Charger le fichier PDF ici
+          data={pdf} 
           type="application/pdf"
           width="100%"
           height="600px"

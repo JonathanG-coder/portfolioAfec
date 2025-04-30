@@ -1,5 +1,5 @@
 import React from "react";
-import { SiVscodium, SiPostman, SiSlack, SiVercel, SiMacos } from "react-icons/si";
+import { SiVscodium, SiPostman, SiVercel} from "react-icons/si";
 import "./Toolstack.css";
 
 export default function Toolstack() {
