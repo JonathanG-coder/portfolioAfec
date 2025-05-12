@@ -5,8 +5,12 @@ import AboutCard from "./aboutCard/AboutCard";
 import Techstack from "./techstack/Techstack";
 import Toolstack from "./toolstack/Toolstack";
 import Github from "./github/Github";
+import { useEffect } from "react";
 
 export default function About() {
+  useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
   return (
     <section className="about-section">
       <div className="container">

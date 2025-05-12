@@ -6,8 +6,13 @@ import Esport2 from "../../assets/E-sport2.png";
 import Panier from "../../assets/Panier.png";
 import LABEAUTECHEZMOI from "../../assets/LABEAUTECHEZMOI.png";
 import "./Projects.css";
+import { useEffect } from "react";
+
 
 const Projects = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="project-section">
       <div className="container">

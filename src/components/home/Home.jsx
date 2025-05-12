@@ -2,8 +2,13 @@ import './Home.css';
 import illustration from '../../assets/image.png'; // image de la bannière
 import avatar from '../../assets/avatar.svg'; // image de l'introduction
 import Typewriter from 'typewriter-effect';
+import { useEffect } from "react";
 
-export default function Home() {
+export default function Home() 
+{
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="home-container">
       {/* Section Bannière */}

@@ -1,10 +1,14 @@
 import React from "react";
 import './Resume.css'; 
+import { useEffect } from "react";
 
 
 import pdf from '../../assets/CV_Jonathan_GAGER.pdf';
 
 export default function Resume() {
+  useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
   return (
     <div className="resume-container">
       {/* Section d'en-tête */}
