@@ -6,11 +6,12 @@ import Resume from "./components/resume/Resume";
 import About from "./components/about/About";
 import Projects from "./components/projects/Project"; // Assure-toi du nom exact !
 
-import { Routes, Route } from 'react-router-dom';
+import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
+
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -19,6 +20,7 @@ function App() {
         <Route path="/resume" element={<Resume />} />
       </Routes>
       <Footer />
+
     </div>
   );
 }
