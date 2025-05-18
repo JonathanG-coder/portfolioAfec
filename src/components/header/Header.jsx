@@ -5,22 +5,24 @@ import logo from "../../assets/photo-profil.png";
 
 export default function Header() {
   
-  // Etat ---
+  // Variable d'état ---
   // Le dark mode est activé par défaut (true)
   const [darkMode, setDarkMode] = useState(true);
   const [open, setOpen] = useState(false);
 
-  // Fonction ---
+  // Fonction pour inverser ---
   const toggleMenu = () => setOpen(!open);
   const toggleDarkMode = () => setDarkMode(!darkMode);
 
-  useEffect(() => {
+  // A chaque fois que DarkMode change, utilisaion de useEffect
+  useEffect(() => {     //() => Fonction fléchée, callback
+    // Fonction pour changer le thème
     if (darkMode) {
       document.body.classList.add("dark-mode");
     } else {
       document.body.classList.remove("dark-mode");
     }
-  }, [darkMode]);
+  }, [darkMode]); //  = Tableau de dépendance qui surveille la liste des variables. CEtte fonction s'exécute à chaque fois que darkMode change
 
   return (
     <header className={`header ${darkMode ? "dark" : "light"}`}>
