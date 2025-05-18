@@ -24,7 +24,7 @@ export default function About() {
           <div className="about-img">
             <img src={laptopImg} alt="about" />
           </div>
-        </div>
+        </div> 
 
         <h1 className="section-title">
           Professional <span className="purple">Skillset</span>

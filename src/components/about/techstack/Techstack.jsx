@@ -1,4 +1,3 @@
-import React from "react";
 import {
   DiJavascript1,
   DiReact,
@@ -9,7 +8,6 @@ import {
 import {
   SiPostgresql,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
 import "./Techstack.css";
 
 export default function Techstack() {

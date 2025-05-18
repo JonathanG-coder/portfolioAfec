@@ -4,10 +4,12 @@ import "./Header.css";
 import logo from "../../assets/photo-profil.png";
 
 export default function Header() {
+  
+  // Etat ---
   // Le dark mode est activé par défaut (true)
   const [darkMode, setDarkMode] = useState(true);
   const [open, setOpen] = useState(false);
-
+  // Fonction ---
   const toggleMenu = () => setOpen(!open);
   const toggleDarkMode = () => setDarkMode(!darkMode);
 
