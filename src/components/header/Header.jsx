@@ -9,6 +9,7 @@ export default function Header() {
   // Le dark mode est activé par défaut (true)
   const [darkMode, setDarkMode] = useState(true);
   const [open, setOpen] = useState(false);
+
   // Fonction ---
   const toggleMenu = () => setOpen(!open);
   const toggleDarkMode = () => setDarkMode(!darkMode);
@@ -24,7 +25,7 @@ export default function Header() {
   return (
     <header className={`header ${darkMode ? "dark" : "light"}`}>
       <Link to="/">
-        <img src={logo} Link to = "/" alt="Logo" className="logo" />
+        <img src={logo} alt="Logo" className="logo" />
       </Link>
       <div className="header-actions">
         <div className="toggle-darkmode" onClick={toggleDarkMode}>
