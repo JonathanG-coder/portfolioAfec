@@ -2,7 +2,7 @@
 import React from "react";
 import { BsGithub } from "react-icons/bs";
 import { CgWebsite } from "react-icons/cg";
-import "./ProjectCard.css";
+import "./ProjetCard.css";
 
 const ProjectCard = ({ imgPath, title, description, ghLink, demoLink, isBlog }) => {
   return (
