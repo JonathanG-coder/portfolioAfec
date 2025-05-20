@@ -9,7 +9,7 @@ import "./Projects.css";
 import { useEffect } from "react";
 
 
-const Project = () => {
+const Asuprimer = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -68,4 +68,4 @@ const Project = () => {
   );
 };
 
-export default Project;
+export default Asupprimer;
