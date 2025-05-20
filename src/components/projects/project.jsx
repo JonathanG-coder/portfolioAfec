@@ -1,4 +1,4 @@
-// src/components/Projects/Projects.jsx
+
 import React from "react";
 import ProjectCard from "./projectCard/projectCard";
 import ThreeRockMountain from "../../assets/Three Rock Mountain.png";

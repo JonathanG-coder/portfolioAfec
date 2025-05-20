@@ -4,7 +4,7 @@ import Footer from "./components/footer/Footer";
 import Home from "./components/home/Home";
 import Resume from "./components/resume/Resume";
 import About from "./components/about/About";
-import Projects from "./components/projects/Project"; // Assure-toi du nom exact !
+import Projects from "./components/projects/Projects"; // Assure-toi du nom exact !
 
 import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
