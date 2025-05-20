@@ -40,7 +40,7 @@ export default function Header() {
       <nav className={`nav-menu ${open ? "active" : ""}`}>
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
-        <Link to="/projects">Project</Link>
+        <Link to="/project">Project</Link>
         <Link to="/resume">Resume</Link>
       </nav>
     </header>
