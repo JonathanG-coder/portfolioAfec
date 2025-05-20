@@ -1,12 +1,43 @@
-# React + Vite
+# 🌐 Portfolio React -Afec-
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenue sur mon **portfolio personnel** réalisé avec **React + Vite**. Ce projet présente une sélection de mes réalisations web ainsi que les liens vers leurs dépôts GitHub respectifs.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚙️ Technologies utilisées
 
-## Expanding the ESLint configuration
+- **React**
+- **Vite**
+- **CSS / SCSS**
+- **React Router DOM**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Fonctionnalités
+
+- 🎨 **Mode sombre (Dark Mode)** activable
+- 📌 **Navigation fluide** via une **navbar** fixe
+- 🔗 **Liens dynamiques** vers mon activité GitHub (push récents, dépôts)
+- 📁 **Projets présentés** avec :
+  - Aperçu visuel
+  - Courte description
+  - Lien direct vers le dépôt GitHub du projet
+
+---
+
+## 📂 Aperçu des projets
+
+- [LA BEAUTÉ CHEZ MOI](https://github.com/JonathanG-coder/la-beaute-chez-moi)
+- [La Maison Jungle](https://github.com/JonathanG-coder/La-maison-jungle/tree/dev)
+- [SnapFace](https://github.com/JonathanG-coder/Snapface)
+- [E-sport](https://github.com/JonathanG-coder/E-sport)
+
+---
+
+## 🔍 Pour tester le projet localement
+
+```bash
+git clone https://github.com/votre-utilisateur/portfolioAfec.git
+cd portfolioAfec
+npm install
+npm run dev
