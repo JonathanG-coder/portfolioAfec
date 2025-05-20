@@ -9,7 +9,7 @@ import "./Projects.css";
 import { useEffect } from "react";
 
 
-const Projects = () => {
+const Project = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -68,4 +68,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Project;
