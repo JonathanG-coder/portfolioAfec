@@ -1,6 +1,6 @@
 
 import React from "react";
-import ProjectCard from "./projectCard/projectCard";
+import ProjectCard from "./projectCard/ProjectCard";
 import ThreeRockMountain from "../../assets/Three Rock Mountain.png";
 import Esport2 from "../../assets/E-sport2.png";
 import Panier from "../../assets/Panier.png";
