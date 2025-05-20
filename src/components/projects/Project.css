@@ -1,0 +1,42 @@
+.project-section {
+  background-color: #f8f8f8;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+    padding: 50px 0;
+  }
+
+  body.dark-mode .project-section {
+    background-color: #1e1e1e;
+    color: white;
+  }
+  
+  .project-heading {
+    text-align: center;
+    font-size: 3rem;
+    color: #9b4dcb;
+  }
+  
+  .project-description {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #d1d1d1;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    margin: 30px;
+  }
+  
+  @media (max-width: 768px) {
+    .project-heading {
+      font-size: 2.5rem;
+    }
+  
+    .project-description {
+      font-size: 1rem;
+    }
+  }
+  
