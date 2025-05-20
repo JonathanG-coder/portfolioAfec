@@ -4,7 +4,7 @@ import ThreeRockMountain from "../../assets/Three Rock Mountain.png";
 import Esport2 from "../../assets/E-Sport2.png";
 import Panier from "../../assets/Panier.png";
 import LABEAUTECHEZMOI from "../../assets/LABEAUTECHEZMOI.png";
-import "./Projects.css";
+import "./Project.css";
 import { useEffect } from "react";
 
 
