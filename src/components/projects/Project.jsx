@@ -7,7 +7,6 @@ import LABEAUTECHEZMOI from "../../assets/LABEAUTECHEZMOI.png";
 import "./Project.css";
 import { useEffect } from "react";
 
-
 const Project = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -22,7 +21,7 @@ const Project = () => {
           Here are a few projects I've worked on recently.
         </p>
         <div className="projects-grid">
-        <ProjectCard
+          <ProjectCard
             imgPath={LABEAUTECHEZMOI}
             isBlog={false}
             title="LA BEAUTE CHEZ MOI"
@@ -50,17 +49,6 @@ const Project = () => {
             description="Présentation d'équipes de e-sports avec leurs joueurs, leur staff et le jeu auquel ils participent."
             ghLink="https://github.com/JonathanG-coder/E-sport"
           />
-          
-          
-
-          {/* <ProjectCard
-            imgPath={leaf}
-            isBlog={false}
-            title="Plant AI"
-            description="Plant disease detection using CNN and Transfer Learning trained with PyTorch framework."
-            ghLink="https://github.com/soumyajit4419/Plant_AI"
-            demoLink="https://plant49-ai.herokuapp.com/"
-          /> */}
         </div>
       </div>
     </div>
